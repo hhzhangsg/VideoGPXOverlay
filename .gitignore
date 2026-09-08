@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Project-generated alignment and reports
+alignment.json
+gpx-analysis.html
+gpx-samples.csv
+
+# Generated subtitle and rendered video files
+*.ass
+*_telemetry.mp4
+
+# Local tooling
+.vscode/

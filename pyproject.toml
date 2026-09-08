@@ -1,0 +1,11 @@
+[project]
+name = "ride-overlay"
+version = "0.1.0"
+description = "Align GPX ride data to videos and render cycling telemetry overlays."
+requires-python = ">=3.11"
+
+[project.scripts]
+ride-overlay = "ride_overlay.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
